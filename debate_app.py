@@ -27,12 +27,12 @@ models = {
 # --- Agent Definitions ---
 initial_agent_instructions = {
     "agent1": {
-        "instruction": "Only return Python code with no additional comments or explanations. You are an expert CAD drafter for FreeCad. Write Python code for the specified user design. If you get comments on how to improve the Python code, then implment it. Only return Python Code.",
+        "instruction": "You are on one side of a debate topic. Provide a response for the debate topic suggested by the user. Limit your response to 3-4 sentences.",
         "avatar": "😀",
         "model": "llama-3.3-70b-versatile",  # Default model
     },
     "agent2": {
-        "instruction": "You are an expert CAD drafter for FreeCad. Revise the given Python code for the specified user design. Please go through the code slowly and make sure designs are centered and follow the user design. State any assumptions explicitly.",
+        "instruction": "You are on one side of a debate topic. Provide a response for the debate topic suggested by the user. Limit your response to 3-4 sentences..",
         "avatar": "🤔",
         "model": "DeepSeek-R1-Distill-Llama-70B",  # Default model
     },
